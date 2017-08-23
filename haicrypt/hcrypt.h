@@ -139,6 +139,7 @@ int     AES_unwrap_key(AES_KEY *key, const unsigned char *iv, unsigned char *out
 
 #endif  /* HAICRYPT_USE_OPENSSL_AES */
 
+#define HAICRYPT_USE_OPENSSL_EVP_ECB4CTR 1  /* HACK */
 
 #ifdef  HAICRYPT_USE_OPENSSL_EVP
 #include <openssl/opensslv.h>   // OPENSSL_VERSION_NUMBER 
